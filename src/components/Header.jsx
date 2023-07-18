@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 export default function Header() {
     const [toggle, setToggle] = useState(true)
   return (
-    <div className='bg-[#2699fb] p-4'>
+    <div className='bg-[#079992] p-4'>
         <div className='max-w-[1240px] py-[15px] items-center flex justify-between border-black mx-auto'>
             <div className='text-3xl font-bold'>
                 Abrar Fahim
@@ -33,7 +33,7 @@ export default function Header() {
             </li>
         </ul>
         {/* Responsive Menu */}
-        <ul className={`duration-300 md:hidden md:flex w-full h-screen text-white fixed bg-black top-[98px] ${toggle ?'left-[-100%]' : 'left-[0px]'} `}>
+        <ul className={`duration-300 md:hidden w-full h-screen text-white fixed bg-black top-[98px] ${toggle ?'left-[-100%]' : 'left-[0px]'} `}>
             <li className='p-5'>
                 Home
             </li>
