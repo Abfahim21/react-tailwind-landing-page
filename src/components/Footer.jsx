@@ -8,7 +8,8 @@ import {
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white'>
+    <div className='bg-[#079992]'>
+      <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-white'>
       <div>
         <h1 className='w-full text-3xl font-bold text-black'>Ab Tech.</h1>
         <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
@@ -58,6 +59,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 };
 
