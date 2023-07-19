@@ -16,7 +16,7 @@ export default function Expert() {
                 numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
                 optio, eaque rerum! Provident similique accusantium nemo autem.
             </p>
-            <button className='w-[30%] bg-black text-white p-3 rounded'>Start Learning</button>
+            <button className='w-[30%] bg-black text-white p-2 md:p-3 rounded'>Start Learning</button>
         </div>
     </div>
   )
